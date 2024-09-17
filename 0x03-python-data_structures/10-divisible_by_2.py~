@@ -1,8 +1,0 @@
-#!/usr/bin/python3
-def divisible_by_2(my_list=[]):
-    copy_list = my_list[:]
-    x % 2 for x in my_list:
-    if x == 0:
-        return True
-    else:
-        return False
