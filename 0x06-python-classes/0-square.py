@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+""" Module to define an empty class """
 
 class Square:
-    """An EMPTY class that defines a square"""
+    """
+    A class that defines a Square.
+    """
     pass
-s = Square()
