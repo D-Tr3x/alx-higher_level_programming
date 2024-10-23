@@ -11,7 +11,7 @@ def add_integer(a, b=98):
 
     Args:
          a (int or float): the first number
-         b (int or float): the second number. Defaults to 98
+         b (int or float): the second number, defaults to 98
 
     Returns:
          the sum of a and b
@@ -24,5 +24,10 @@ def add_integer(a, b=98):
         raise TypeError('a must be an integer')
     if not isinstance(b, (int, float)):
         raise TypeError('b must be an integer')
+
+    if isinstance(a, float) and (a != a):
+        raise ValueError('a must be an integer')
+    if isinstance(b, float) and (b != b):
+        raise ValueError('b must be an integer')
 
     return int(a) + int(b)
