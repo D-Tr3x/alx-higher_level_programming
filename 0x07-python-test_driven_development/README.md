@@ -2,3 +2,4 @@
 1. (missing)
 2. Divide a matrix
 3. Say my name
+4. Print square

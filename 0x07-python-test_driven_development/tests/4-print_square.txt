@@ -1,0 +1,27 @@
+>>> print_square = __import__('4-print_square').print_square
+>>> print_square(4)
+####
+####
+####
+####
+>>> print_square(-4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/d_trex/alx-higher_level_programming/0x07-python-test_driven_development/4-print_square.py", line 24, in print_square
+    raise ValueError('size must be >= 0')
+ValueError: size must be >= 0
+>>> print_square(0)
+>>> print_square("Hey")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/d_trex/alx-higher_level_programming/0x07-python-test_driven_development/4-print_square.py", line 20, in print_square
+    raise TypeError('size must be an integer')
+TypeError: size must be an integer
+>>> print_square()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: print_square() missing 1 required positional argument: 'size'
+>>> print_square(none)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'none' is not defined
