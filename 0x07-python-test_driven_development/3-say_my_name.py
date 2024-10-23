@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """
-This module creates a function that prints a users fullname
+This module creates a function that prints a user's full name
 """
+
 
 def say_my_name(first_name, last_name=""):
     """
-    prints My name is <first name> <last name>
+    Prints "My name is <first name> <last name>"
 
     Args:
         first_name (string)
@@ -18,7 +19,4 @@ def say_my_name(first_name, last_name=""):
     if not isinstance(last_name, str):
         raise TypeError('last_name must be a string')
 
-    if last_name:
-        print("My name is {} {}".format(first_name, last_name))
-    else:
-        print("My name is {}".format(first_name))
+    print("My name is {} {}".format(first_name, last_name).rstrip())
