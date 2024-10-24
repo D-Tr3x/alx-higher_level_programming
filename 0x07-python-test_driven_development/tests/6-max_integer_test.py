@@ -17,7 +17,7 @@ class TestMax(unittest.TestCase):
 
     def test_multiple(self):
         """ Test with multiple numbers in the list """
-        self.assertEqual(max_integer([1, 3, 2, 5]), 5)
+        self.assertEqual(max_integer([5, 3, 2, 1]), 5)
 
     def test_duplicate(self):
         """ Test with duplicate max numbers """
