@@ -4,3 +4,4 @@
 3. Say my name
 4. Print square
 5. Text indentation
+6. Max integer - Unittest
