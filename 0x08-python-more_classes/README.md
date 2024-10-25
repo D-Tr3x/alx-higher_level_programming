@@ -7,3 +7,4 @@
 6. How many instances
 7. Change representation
 8. Compare rectangles
+9. A square is a rectangle
