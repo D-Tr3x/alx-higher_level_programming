@@ -6,3 +6,4 @@
 5. Right count =+
 6. Is equal
 7. Is the same
+8. Is really equal
