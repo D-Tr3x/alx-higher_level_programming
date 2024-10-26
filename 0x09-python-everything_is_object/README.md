@@ -5,3 +5,4 @@
 4. Right count =
 5. Right count =+
 6. Is equal
+7. Is the same
