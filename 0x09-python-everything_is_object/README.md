@@ -17,3 +17,4 @@
 18. List assignation
 19. Copy a list object
 20. Tuple or not?
+21. Tuple or not?
