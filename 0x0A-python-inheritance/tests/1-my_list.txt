@@ -9,10 +9,14 @@
 [1, 4, 2, 3, 5]
 >>> my_list.print_sorted()
 [1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5]
 >>> empty_list = MyList()
 >>> print(empty_list)
 []
 >>> empty_list.print_sorted()
+[]
+>>> print(empty_list)
 []
 >>> singlist = MyList()
 >>> singlist.append(1)
@@ -20,3 +24,17 @@
 [1]
 >>> singlist.print_sorted()
 [1]
+>>> print(singlist)
+[1]
+>>> neg_list = MyList()
+>>> neg_list.append(-5)
+>>> neg_list.append(-9)
+>>> neg_list.append(0)
+>>> neg_list.append(4)
+>>> neg_list.append(1)
+>>> print(neg_list)
+[-5, -9, 0, 4, 1]
+>>> neg_list.print_sorted()
+[-9, -5, 0, 1, 4]
+>>> print(neg_list)
+[-5, -9, 0, 4, 1]
