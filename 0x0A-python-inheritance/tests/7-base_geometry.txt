@@ -1,6 +1,7 @@
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("my_int", 12)
+>>> bg.integer_validator("width", 89)
 >>> bg.integer_validator("name", "John")
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -19,33 +20,41 @@ Traceback (most recent call last):
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 16, in integer_validator
     raise ValueError('{} must be greater than 0'. format(name))
 ValueError: distance must be greater than 0
->>> bg.integer_validator("name", "4")
+>>> bg.integer_validator("distance", 10.5)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 14, in integer_validator
     raise TypeError('{} must be an integer'.format(name))
-TypeError: name must be an integer
->>> bg.integer_validator("name", [3])
+TypeError: distance must be an integer
+>>> bg.integer_validator("distance")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: integer_validator() missing 1 required positional argument: 'value'
+>>> bg.integer_validator()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+>>> bg.integer_validator("age", (4,))
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 14, in integer_validator
     raise TypeError('{} must be an integer'.format(name))
-TypeError: name must be an integer
->>> bg.integer_validator("stats", True)
+TypeError: age must be an integer
+>>> bg.integer_validator("age", [3])
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 14, in integer_validator
     raise TypeError('{} must be an integer'.format(name))
-TypeError: stats must be an integer
->>> bg.integer_validator("name", {1, 2})
+TypeError: age must be an integer
+>>> bg.integer_validator("age", {3, 4})
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 14, in integer_validator
     raise TypeError('{} must be an integer'.format(name))
-TypeError: name must be an integer
->>> bg.integer_validator("name", None)
+TypeError: age must be an integer
+>>> bg.integer_validator("age", None)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   File "/home/d_trex/alx-higher_level_programming/0x0A-python-inheritance/7-base_geometry.py", line 14, in integer_validator
     raise TypeError('{} must be an integer'.format(name))
-TypeError: name must be an integer
+TypeError: age must be an integer
