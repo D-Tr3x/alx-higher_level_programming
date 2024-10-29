@@ -7,3 +7,4 @@
 Improve Geometry
 7. Integer validator
 8. Rectangle
+9. Full rectangle
