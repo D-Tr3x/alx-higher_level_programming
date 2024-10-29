@@ -6,3 +6,4 @@
 5. Geometry module
 Improve Geometry
 7. Integer validator
+8. Rectangle
