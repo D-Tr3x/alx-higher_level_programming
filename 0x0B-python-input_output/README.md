@@ -7,3 +7,4 @@
 6. Create object from a JSON file
 7. Load, add, save
 8. Class to JSON
+9. Student to JSON
