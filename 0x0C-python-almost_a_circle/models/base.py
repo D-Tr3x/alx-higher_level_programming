@@ -1,14 +1,19 @@
 #!/usr/bin/python3
-"""
-Module: Base for Almost a Circle, defines base class for other shapes
-"""
+""" Module: defines base Class with `id` attribute """
 
 
 class Base:
-    """ Base class for shapes
-    """
+    """ Base class for classes """
+    __nb_objects = 0
 
     def __init__(self, id=None):
-        """ initialize id to Base
+        """ Initializes id(int) to Base
+
+        Assigns id automatically if None,
+        otherwise; assigns id to number of instances
         """
-        self.id = id
+        if id is not None:
+            self.id = id
+        else:
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
