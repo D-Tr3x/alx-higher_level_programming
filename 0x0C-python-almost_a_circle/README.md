@@ -8,3 +8,4 @@
 7. Display #1
 8. Update #0
 9. Update #1 (**kwargs)
+10. And now, the Square!
