@@ -14,3 +14,4 @@
 13. Rectangle instance to dictionary representation
 14. Square instance to dictionary representation
 15. Dictionary to JSON string
+16. JSON string to file
