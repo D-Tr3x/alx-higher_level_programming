@@ -13,3 +13,4 @@
 12. Square update
 13. Rectangle instance to dictionary representation
 14. Square instance to dictionary representation
+15. Dictionary to JSON string
