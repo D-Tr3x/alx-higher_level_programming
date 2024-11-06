@@ -77,6 +77,15 @@ class Rectangle(Base):
         for _ in range(self.__height):
             print(" " * self.__x + "#" * self.__width)
 
+    def update(self, *args):
+        """ Update attributes of Rectangle, assigning args to each attribute
+        """
+
+        attr = ['id', 'width', 'height', 'x', 'y']
+        for i, value in enumerate(args):
+            if i < len(attr):
+                setattr(self, attr[i], value)
+
     def __str__(self):
         """ Returns a formatted string representation of the rectangle """
         return (f"[Rectangle] ({self.id}) "
