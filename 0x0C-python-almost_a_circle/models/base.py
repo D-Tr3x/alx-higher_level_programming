@@ -2,7 +2,6 @@
 """ Module: defines base Class with `id` attribute """
 
 import json
-import os
 
 
 class Base:
@@ -40,7 +39,14 @@ class Base:
             data = [obj.to_dictionary() for obj in list_objs]
 
         json_string = cls.to_json_string(data)
-
         with open(file, 'w') as f:
             json.dump(data, f)
             # f.write(json_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """ Returns the list of the JSON string representation json_string """
+
+        if not json_string:
+            return []
+        return json.loads(json_string)
