@@ -5,3 +5,4 @@
 4. Area first
 5. Display #0
 6. __str__
+7. Display #1
