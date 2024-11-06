@@ -94,3 +94,15 @@ class Rectangle(Base):
         """ Returns a formatted string representation of the rectangle """
         return (f"[Rectangle] ({self.id}) "
                 f"{self.__x}/{self.__y} - {self.__width}/{self.__height}")
+
+    def to_dictionary(self):
+        """ Returns the dictionary representation of the Rectangle,
+            containing: id, width, height, x and y
+        """
+        return {
+            'id': self.id,
+            'width': self.width,
+            'height': self.height,
+            'x': self.x,
+            'y': self.y
+        }
