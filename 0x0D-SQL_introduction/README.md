@@ -12,3 +12,4 @@
 11. Select the best
 10. List by best
 13. Score too low
+14. Average
