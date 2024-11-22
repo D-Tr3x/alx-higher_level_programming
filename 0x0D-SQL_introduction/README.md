@@ -17,3 +17,4 @@
 16. Say my name
 17. Go to UTF8
 18. Temperatures #0
+19. Temperatures #1
