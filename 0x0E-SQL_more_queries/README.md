@@ -6,3 +6,4 @@
 5. Unique ID
 6. States table
 7. Cities table
+8. Cities of California
