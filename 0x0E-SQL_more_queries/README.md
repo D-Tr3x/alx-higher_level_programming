@@ -4,3 +4,4 @@
 3. Always a name
 4. Never Empty
 5. Unique ID
+6. States table
