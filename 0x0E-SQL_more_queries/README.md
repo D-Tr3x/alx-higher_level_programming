@@ -5,3 +5,4 @@
 4. Never Empty
 5. Unique ID
 6. States table
+7. Cities table
