@@ -2,4 +2,4 @@
 # Basic concepts of Javascript
 
 # Tasks:
-0. First constant, first print
+0. First constant, first print1. 3 languages
