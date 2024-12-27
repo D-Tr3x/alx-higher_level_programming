@@ -3,3 +3,4 @@
 
 # Tasks:
 0. First constant, first print1. 3 languages
+2. Arguments
