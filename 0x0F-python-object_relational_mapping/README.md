@@ -29,3 +29,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 2. Filter states by user input
 3. SQL Injection...
 4. Cities by states
+5. All cities by state
