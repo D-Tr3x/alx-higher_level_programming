@@ -30,3 +30,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 3. SQL Injection...
 4. Cities by states
 5. All cities by state
+6. First state model
