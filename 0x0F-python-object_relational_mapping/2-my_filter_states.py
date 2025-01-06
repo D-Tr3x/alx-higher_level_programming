@@ -22,8 +22,9 @@ if __name__ == "__main__":
         db=database
     )
     cur = db.cursor()
-    query = "SELECT * FROM `states`WHERE BINARY name = %s ORDER BY `id` ASC"
-    cur.execute(query, (search,))
+
+    query = "SELECT * FROM `states`WHERE BINARY name = '{}' ORDER BY `id` ASC"
+    cur.execute(query.format(search))
 
     states = cur.fetchall()
     for state in states:
