@@ -26,3 +26,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 
 0. Get all states
 1. Filter states
+2. Filter states by user input
