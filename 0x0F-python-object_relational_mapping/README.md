@@ -25,3 +25,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 ## Tasks:
 
 0. Get all states
+1. Filter states
