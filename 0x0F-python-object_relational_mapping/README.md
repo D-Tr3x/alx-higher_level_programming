@@ -34,3 +34,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 7. All states via SQLAlchemy
 8. First state
 9. Contains `a`
+10. Get a state
