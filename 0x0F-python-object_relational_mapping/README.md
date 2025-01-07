@@ -35,3 +35,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 8. First state
 9. Contains `a`
 10. Get a state
+11. Add a new state
