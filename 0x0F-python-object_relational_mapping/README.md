@@ -31,3 +31,4 @@ In this project, we will gain hands-on experience with two popular Python librar
 4. Cities by states
 5. All cities by state
 6. First state model
+7. All states via SQLAlchemy
