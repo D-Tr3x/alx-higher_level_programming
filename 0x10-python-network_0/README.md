@@ -12,3 +12,4 @@
 - 5. cURL POST parameters
 - 6. Find a peak
 - 7. Only status code
+- 8. cURL a JSON file
