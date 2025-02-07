@@ -12,3 +12,4 @@ The second part of the `Python - Network` series. In this project I focused on f
 - 5. Response header value #1
 - 6. POST an email #1
 - 7. Error code #1
+- 8. Search API
