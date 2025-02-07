@@ -10,3 +10,4 @@ The second part of the `Python - Network` series. In this project I focused on f
 - 3. Error code #0
 - 4. What's my status? #1
 - 5. Response header value #1
+- 6. POST an email #1
